@@ -1,0 +1,12 @@
+Conv3D model input tensor
+https://discuss.pytorch.org/t/conv3d-model-input-tensor/139379
+
+What should be the input shape for 3D CNN on a sequence of images? 
+
+N → number of sequences (mini batch)
+C_n → number of channels (3 for rgb)
+D → Number of images in a sequence
+H → Height of one image in the sequence
+W → Width of one image in the sequence
+
+https://discuss.pytorch.org/t/what-should-be-the-input-shape-for-3d-cnn-on-a-sequence-of-images/111884
